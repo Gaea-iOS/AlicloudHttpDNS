@@ -4,4 +4,4 @@ rm -rf AlicloudHttpDNS*.zip
 curl -O http://osr81xpwt.bkt.clouddn.com/iOS/AlicloudHttpDNS1.5.5.zip
 unzip AlicloudHttpDNS1.5.5.zip
 
-copy ./AlicloudHttpDNS/*.frameworks Pods/AlicloudHttpDNS
+cp ./AlicloudHttpDNS/*.frameworks Pods/AlicloudHttpDNS
