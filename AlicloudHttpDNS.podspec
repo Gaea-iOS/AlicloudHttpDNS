@@ -17,7 +17,7 @@ s.prepare_command = './install'
 
 #s.source_files = 'AlicloudHttpDNS/*.{h,m}'
 #s.public_header_files = 'AlicloudHttpDNS/*.h'
-s.vendored_frameworks  = 'AlicloudHttpDNS/*.frameworks'
+s.vendored_frameworks  = 'AlicloudHttpDNS/AlicloudHttpDNS.frameworks', 'AlicloudHttpDNS/AlicloudUtils.frameworks', 'AlicloudHttpDNS/UTDID.frameworks'
 
 s.frameworks = 'SystemConfiguration', 'CoreTelephony',
 s.library = 'resolv'
